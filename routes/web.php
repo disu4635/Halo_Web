@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UnscController;
+use App\Http\Controllers\CovenantController;
+use App\Http\Controllers\PrometeosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,26 +24,15 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/noble1', function () {
-    return view('noble1');
-});
+Route::get('jefe_maestro', [UnscController::class, 'mostrarUnsc']);
 
-Route::get('/noble2', function () {
-    return view('noble2');
-});
+Route::get('noble6', [UnscController::class, 'mostrarNoble6']);
 
-Route::get('/noble3', function () {
-    return view('noble3');
-});
+Route::get('inquisidor', [CovenantController::class, 'mostrarInquisidor']);
 
-Route::get('/noble4', function () {
-    return view('noble4');
-});
+Route::get('verdad', [CovenantController::class, 'mostrarVerdad']);
 
-Route::get('/noble5', function () {
-    return view('noble5');
-});
+Route::get('didacta', [PrometeosController::class, 'mostrarDidacta']);
 
-Route::get('/noble6', function () {
-    return view('noble6');
-});
+Route::get('bibliotecaria', [PrometeosController::class, 'mostrarBibliotecaria']);
+

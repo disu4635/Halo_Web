@@ -17,11 +17,11 @@
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10">
                 <h1 class="my-4 text-center text-2xl font-medium font-medium">Jefe Maestro Jhon 117</h1>
-                <p class="text-justify font-light">Carter es el líder del Equipo Noble y lleva la designación de "Noble 1". Es reconocible por su armadura plateada y su casco distintivo.</p>
+                <p class="text-justify font-light">Jefe Maestro es un supersoldado Spartan-II mejorado genéticamente y entrenado desde una edad temprana para convertirse en la máxima arma de la humanidad. Es reconocible por su armadura verde con visor dorado y su estatura imponente.</p>
             </div>
         </div>
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble1')}}" >
+        <a href="{{url('jefe_maestro')}}" >
             <img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/jhon117_home.jpg')}}" alt="">
         </a>
         </div>
@@ -44,21 +44,21 @@
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
                 <h1 class="my-4 text-center text-2xl font-medium">Inquisidor</h1>
-                <p class="text-justify font-light">Jun es el francotirador del Equipo Noble, designado como "Noble 3". Lleva una armadura verde y un casco con una visera alargada.</p>
+                <p class="text-justify font-light">El Inquisidor, o Arbiter, es un título otorgado a un miembro destacado de la especie Sangheili (Elites) en la jerarquía del Covenant. Su apariencia puede variar dependiendo del individuo, pero generalmente llevan una armadura distintiva y ceremonial.</p>
             </div>
         </div>
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble3')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/inquisidor_home.jpg')}}" alt=""></a>
+        <a href="{{url('inquisidor')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/inquisidor_home.jpg')}}" alt=""></a>
         </div>
     </section>
     <section class="flex my-5">
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble4')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/verdad_home.jpg')}}" alt=""></a>
+        <a href="{{url('verdad')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/verdad_home.jpg')}}" alt=""></a>
         </div>
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
                 <h1 class="my-4 text-center text-2xl font-medium">Profeta Verdad</h1>
-                <p class="text-justify font-light">Emile es el especialista en combate cuerpo a cuerpo del Equipo Noble, conocido como "Noble 4". Lleva una armadura negra y un casco con una cuchilla en la visera.</p>
+                <p class="text-justify font-light">El Profeta de la Verdad es un miembro de alto rango de la raza alienígena conocida como los Profetas en el Covenant. Su apariencia es la de un ser pequeño y encorvado, con una piel pálida y arrugada. Suele vestir una túnica ceremonial y portar un bastón de mando</p>
             </div>
         </div>
     </section>
@@ -69,21 +69,21 @@
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
                 <h1 class="my-4 text-center text-2xl font-medium">Didacta</h1>
-                <p class="text-justify font-light">Jorge es el especialista en demoliciones del Equipo Noble, identificado como "Noble 5". Lleva una armadura plateada y un casco con una visera redonda.</p>
+                <p class="text-justify font-light">El Didacta es una figura prominente de la raza de los Forerunners, una antigua y avanzada civilización alienígena en el universo de Halo. Su apariencia varía dependiendo del medio en el que se presenta, pero generalmente es representado como un ser alto, imponente y de estructura musculosa, con una armadura tecnológica distintiva.</p>
             </div>
         </div>
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble5')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/didacta_home.jpg')}}" alt=""></a>
+        <a href="{{url('didacta')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/didacta_home.jpg')}}" alt=""></a>
         </div>
     </section>
     <section class="flex my-5">
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble6')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/bilbiotecaria_home.webp')}}" alt=""></a>
+        <a href="{{url('bibliotecaria')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/bilbiotecaria_home.webp')}}" alt=""></a>
         </div>
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
                 <h1 class="my-4 text-center text-2xl font-medium">Bliotecaria</h1>
-                <p class="text-justify font-light">Noble Seis es un Spartan-III altamente habilidoso y valiente que desafía los obstáculos con determinación y tenacidad. Es un soldado eficiente y letal en el campo de batalla, capaz de adaptarse a diversas situaciones y enfrentar cualquier desafío que se le presente.</p>
+                <p class="text-justify font-light">La Bibliotecaria es una entidad Forerunner conocida por su sabiduría y su dedicación al conocimiento y preservación de la historia. En su forma física, suele aparecer como una figura femenina alta y esbelta, con una presencia serena y seriedad en su mirada.</p>
             </div>
         </div>
     </section>
