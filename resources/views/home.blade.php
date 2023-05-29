@@ -7,11 +7,11 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#181a1b] text-[#e8e6e3]">
-    <div class="flex items-center justify-center h-screen mb-5">
-        <img src="{{url('/assets/imagenes/halo_home.jpg')}}" alt="Imagen" class="w-full h-full object-cover">
+    <div class="flex items-center justify-center h-full">
+        <img class="rounded-xl" src="{{url('/assets/imagenes/halo_home.jpg')}}" alt="Imagen" class="w-full h-full object-cover">
     </div>
-    <header class="flex m-10 items-center justify-center bg-zinc-900">
-        <h1 class="text-2xl font-semibold">UNSC</h1>
+    <header class=" flex m-10 items-center justify-center bg-zinc-900">
+        <h1 class=" text-2xl font-semibold">UNSC</h1>
     </header>
     <section class="flex my-5">
         <div class="w-1/2 flex items-center justify-center">
@@ -22,13 +22,13 @@
         </div>
         <div class="w-1/2 h-80 px-5">
         <a href="{{url('jefe_maestro')}}" >
-            <img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/jhon117_home.jpg')}}" alt="">
+            <img class=" w-full h-full object-cover rounded-xl" src="{{url('/assets/imagenes/jhon117_home.jpg')}}" alt="">
         </a>
         </div>
     </section>
     <section class="flex my-5">
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('noble6')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/noble6_home.jpg')}}" alt=""></a>
+        <a href="{{url('noble6')}}"><img class="rounded-xl rounded-xl w-full h-full object-cover" src="{{url('/assets/imagenes/noble6_home.jpg')}}" alt=""></a>
         </div>
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
@@ -48,12 +48,12 @@
             </div>
         </div>
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('inquisidor')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/inquisidor_home.jpg')}}" alt=""></a>
+        <a href="{{url('inquisidor')}}"><img class=" rounded-xl w-full h-full object-cover" src="{{url('/assets/imagenes/inquisidor_home.jpg')}}" alt=""></a>
         </div>
     </section>
     <section class="flex my-5">
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('verdad')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/verdad_home.jpg')}}" alt=""></a>
+        <a href="{{url('verdad')}}"><img class="rounded-xl w-full h-full object-cover" src="{{url('/assets/imagenes/verdad_home.jpg')}}" alt=""></a>
         </div>
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
@@ -73,17 +73,17 @@
             </div>
         </div>
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('didacta')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/didacta_home.jpg')}}" alt=""></a>
+        <a href="{{url('didacta')}}"><img class="rounded-xl w-full h-full object-cover" src="{{url('/assets/imagenes/didacta_home.jpg')}}" alt=""></a>
         </div>
     </section>
     <section class="flex my-5">
         <div class="w-1/2 h-80 px-5">
-        <a href="{{url('bibliotecaria')}}"><img class=" w-full h-full object-cover" src="{{url('/assets/imagenes/bilbiotecaria_home.webp')}}" alt=""></a>
+        <a href="{{url('bibliotecaria')}}"><img class="rounded-xl w-full h-full object-cover" src="{{url('/assets/imagenes/bilbiotecaria_home.webp')}}" alt=""></a>
         </div>
         <div class="w-1/2 flex items-center justify-center">
             <div class="mx-10" >
                 <h1 class="my-4 text-center text-2xl font-medium">Bliotecaria</h1>
-                <p class="text-justify font-light">La Bibliotecaria es una entidad Forerunner conocida por su sabiduría y su dedicación al conocimiento y preservación de la historia. En su forma física, suele aparecer como una figura femenina alta y esbelta, con una presencia serena y seriedad en su mirada.</p>
+                <p class="text-justify font-light mt-30">La Bibliotecaria es una entidad Forerunner conocida por su sabiduría y su dedicación al conocimiento y preservación de la historia. En su forma física, suele aparecer como una figura femenina alta y esbelta, con una presencia serena y seriedad en su mirada.</p>
             </div>
         </div>
     </section>
