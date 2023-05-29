@@ -24,7 +24,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('jefe_maestro', [UnscController::class, 'mostrarUnsc']);
+Route::get('jefe_maestro', [UnscController::class, 'mostrarJefeMaestro']);
 
 Route::get('noble6', [UnscController::class, 'mostrarNoble6']);
 
